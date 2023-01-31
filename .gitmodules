@@ -1,0 +1,3 @@
+[submodule "label-studio-ml-backend"]
+	path = label-studio-ml-backend
+	url = git@github.com:heartexlabs/label-studio-ml-backend.git
