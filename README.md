@@ -1,5 +1,11 @@
 # label-studio-clip-ml-backend
 
+This project creates simple [ML backend](https://github.com/heartexlabs/label-studio-ml-backend) for [label-studio](https://github.com/heartexlabs/label-studio) that assists you in annotating a new dataset using CLIP, specifically [OWL-ViT](https://huggingface.co/docs/transformers/model_doc/owlvit). As CLIP is trained on a dataset with annotated text captions, it is not needed to train any models like yolo, you just have to declare text classes, which is very convenient. For example `["a photo of a cow", "a photo of a chicken"]`
+
+
+https://user-images.githubusercontent.com/36619129/215835296-845cbf8c-f788-4aa1-99d7-a311c22d5b14.mp4
+
+
 Clone repostory with submodules
 ```shell
 git clone git@github.com:pavtiger/label-studio-clip-ml-backend.git --recursive
